@@ -40,10 +40,6 @@ footer {
     display: none;
 }
 
-.imglogoroundpage {
-    display: none;
-}
-
 h1 {
     font-family: "Gwendolyn", cursive;
     font-weight: 400;
@@ -206,6 +202,10 @@ main {
     grid-template-columns: 19.5% 19.5% 19.5% 19.5% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     gap: 1%;
+}
+
+.imglogoroundpage {
+    display: none;
 }
 
 /*Layout main indexpage*/
