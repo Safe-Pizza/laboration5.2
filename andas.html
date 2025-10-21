@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DT054G - Projektarbete</title>
+</head>
+
+<body>
+    <!--Wrapper för hela sidan-->
+    <div class="wrapper">
+        <div class="space"></div>
+        <!--Mainnavigation-->
+        <header>
+            <div class="toplogo">
+                <a href="index.html">
+                    <img class="logo290" src="images/logobreathemind290.jpg" alt="logotyp breathemind"></a>
+                <a href="index.html">
+                    <img class="logomobile" src="images/logobreathemindmini58.jpg" alt="logotyp breathemind"></a>
+
+                <a href="javascript:void(0);" class="icon">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <nav class="mainnav">
+
+            <a href="index.html">Startsida</a>
+            <a href="andas.html">Andningsövningar</a>
+            <a href="mindfulness.html">Vad är mindfulness?</a>
+            <a href="about.html">Om oss</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+        <!--Maincontent-->
+        <main>
+            <div class="imglogoroundpage"><img src="images/logorund176.jpg" alt="breathemind logotyp rund"></div>
+            <h1>breathemind</h1>
+            <div class="headerpageandas">
+                <h2>Andningsövningar</h2>
+            </div>
+            <div class="mainoneandas">
+                <p class="mainone"> Andningen är något vi gör hela tiden - men sällan tänker på.<br>
+                    När livet går i högt tempo börjar vi ofta andas ytligt och snabbt, vilket kan göra kroppen spänd och
+                    sinnet stressat.<br>
+                    Genom enkla andningsövningar kan du påminna kroppen om att slappna av, sänka pulsen och hitta fokus
+                    igen.<br><br>
+                    Du behöver varken mycket tid eller erfarenhet.
+                    Börja med några minuter om dagen - ta ett djupt andetag in genom näsan,<br> känn hur bröstet höjs,
+                    och
+                    andas
+                    långsamt ut genom munnen.<br>
+                    Det kan låta enkelt, men kroppen reagerar direkt: du blir mer närvarande, lugnare och mer i balans.
+            </div>
+            <div class="maintwoandas">
+                <p class="maintwo">
+                <h3>Våra bästa övningar</h3> Här är tre enkla andningsövningar som hjälper dig att hitta lugn och
+                fokus.<br>
+                Prova <b>Boxandning (4-4-4-4)</b> genom att andas in i 4 sekunder, hålla andan i 4, andas ut i 4
+                och pausa i 4 sekunder - upprepa 4-6 varv.<br>
+                Testa sedan <b>djupandning med hand på magen</b> lägg
+                en hand på magen och en på bröstet, andas djupt ner i magen så att bara magen rör sig, andas in i 4
+                sekunder
+                och ut i 6, i 1-2 minuter. <br>
+                Avsluta med <b>4-7-8-andning</b> där du andas in genom näsan i 4
+                sekunder, håller andan i 7 och andas långsamt ut i 8 sekunder - upprepa 3-4 gånger för att känna hur
+                kroppen
+                slappnar av.</p>
+            </div>
+
+            <div class="videoone">
+                <video class="videoone" controls>
+                    <source src="videos/4259074-sd_640_360_25fps.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="videotwo">
+                <video controls>
+                    <source src="videos/4260135-uhd_3840_2160_25fps (1).mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="videothree">
+                <video controls>
+                    <source src="videos/4325594-uhd_4096_2160_25fps-VEED (1).mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="videofour">
+                <video controls>
+                    <source src="videos/Hanna Lindkvist_s Video - Oct 17, 2025-VEED (1).mp4" type="video/mp4">
+                </video>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer>
+            <div class="footertext">
+                <p class="creator"> &copy; Hanna Lindkvist</p>
+                <p class="info">Denna sida är ett projektarbete i kursen Webbutveckling I, Mittuniversitetet.</p>
+            </div>
+        </footer>
+    </div><!--Wrapper slut-->
+
+    <!--Function for hamburgermenu mobile-->
+    <script>
+        document.querySelector("#icon").addEventListener("click", myFunction);
+
+        function myFunction() {
+            var x = document.querySelector(".mainnav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

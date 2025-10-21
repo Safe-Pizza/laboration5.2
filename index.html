@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DT054G - Projektarbete</title>
+</head>
+
+<body>
+    <!--Wrapper för hela sidan-->
+    <div class="wrapper">
+        <div class="space"></div>
+        <!--Mainnavigation-->
+        <header>
+            <div class="toplogo">
+                <a href="index.html">
+                    <img class="logo290" src="images/logobreathemind290.jpg" alt="logotyp breathemind"></a>
+                <a href="index.html">
+                    <img class="logomobile" src="images/logobreathemindmini58.jpg" alt="logotyp breathemind"></a>
+
+                <a href="javascript:void(0);" class="icon">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <nav class="mainnav">
+
+            <a href="index.html">Startsida</a>
+            <a href="andas.html">Andningsövningar</a>
+            <a href="mindfulness.html">Vad är mindfulness?</a>
+            <a href="about.html">Om oss</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+        <!--Maincontent-->
+        <main>
+            <div class="imglogoround"><img src="images/logorund176.jpg" alt="breathemind logotyp rund"></div>
+            <h1>breathemind</h1>
+            <div class="headerpageindex">
+                <h2>Ta en paus. Bara andas.</h2>
+            </div>
+            <div class="mainindex">
+                <p class="mainone"> Välkommen till din paus mitt i vardagen.<br><br>
+                    Här hittar du enkla andningsövningar och mindfulness-stunder som hjälper dig att varva ner, fokusera
+                    och
+                    må bättre.<br>
+                    Oavsett om du pluggar, jobbar eller jonglerar familjeliv - några minuter av medveten andning kan
+                    göra
+                    stor skillnad.<br>
+                    Ta en paus. Andas. Börja om.</p>
+            </div>
+
+            <div class="imgone"> <img class="imgone" src="images/pexels-cottonbro-4325489-300.jpg" alt=""></div>
+            <div class="imgtwo"><img src="images/pexels-cristian-rojas-8391652-300.jpg" alt=""></div>
+            <div class="imgthree"><img src="images/pexels-olia-danilevich-9004303-300.jpg" alt=""></div>
+            <!--Sidecontent-->
+            <div class="aside">
+                <aside>
+                    <h3>Våra bästa övningar</h3>
+                    <h4>Boxandning (4-4-4-4)</h4>
+                    <ul>
+                        <li>Andas in i 4 sekunder</li>
+                        <li>Håll andan i 4 sekunder</li>
+                        <li>Andas ut i 4 sekunder</li>
+                        <li>Pausa i 4 sekunder</li>
+                        <li>Upprepa 4-6 varv</li>
+                    </ul>
+                    <h4>Djupandning med hand på magen</h4>
+                    <ul>
+                        <li>Lägg en hand på magen och en på bröstet</li>
+                        <li>Andas djupt ner i magen - låt bara magen röra sig</li>
+                        <li>Andas in i 4 sekunder, andas ut i 6</li>
+                        <li>Upprepa i 1-2 minuter</li>
+                    </ul>
+                    <h4>4-7-8-andning</h4>
+                    <ul>
+                        <li>Andas in genom näsan i 4 sekunder</li>
+                        <li>Håll andan i 7 sekunder</li>
+                        <li>Andas ut långsamt i 8 sekunder</li>
+                        <li>Upprepa 3-4 gånger</li>
+                    </ul>
+                </aside>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer>
+            <div class="footertext">
+                <p class="creator"> &copy; Hanna Lindkvist</p>
+                <p class="info">Denna sida är ett projektarbete i kursen Webbutveckling I, Mittuniversitetet.</p>
+            </div>
+        </footer>
+    </div><!--Wrapper slut-->
+
+    <!--Function for hamburgermenu mobile-->
+    <script>
+        document.querySelector("#icon").addEventListener("click", myFunction);
+
+        function myFunction() {
+            var x = document.querySelector(".mainnav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

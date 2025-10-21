@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DT054G - Projektarbete</title>
+</head>
+
+<body>
+    <!--Wrapper för hela sidan-->
+    <div class="wrapper">
+        <div class="space"></div>
+        <!--Mainnavigation-->
+        <header>
+            <div class="toplogo">
+                <a href="index.html">
+                    <img class="logo290" src="images/logobreathemind290.jpg" alt="logotyp breathemind"></a>
+                <a href="index.html">
+                    <img class="logomobile" src="images/logobreathemindmini58.jpg" alt="logotyp breathemind"></a>
+
+                <a href="javascript:void(0);" class="icon">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <nav class="mainnav">
+            <a href="index.html">Startsida</a>
+            <a href="andas.html">Andningsövningar</a>
+            <a href="mindfulness.html">Vad är mindfulness?</a>
+            <a href="about.html">Om oss</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+
+        <!--Page content-->
+        <main>
+            <div class="imglogoroundpage"><img src="images/logorund176.jpg" alt="breathemind logotyp rund"></div>
+            <h1 class="h1contact">breathemind</h1>
+            <div class="headerpagecontact">
+                <h2>Kontakt</h2>
+            </div>
+            <div class="contact">
+                <p class="main">Fyll i formuläret så återkommer vi</p>
+                <form>
+                    <input type="text" id="emailcontact" name="email" placeholder="e-mailadress"><br><br>
+
+                    <textarea id="comments" name="comments">Skriv din text här
+            </textarea><br>
+                    <input type="submit" name="skicka" value="Skicka">
+                    <input type="reset" name="rensa" value="Rensa">
+                </form>
+            </div>
+
+            <div class="logoroundedcontact">
+                <img src="images/logobreathemind290.jpg" alt="logotyp breathemind">
+            </div>
+
+            <div class="signup">
+                <p>
+                    Vill du få nyhetsbrev?
+                </p>
+                <input type="text" id="emailsignup" name="email" placeholder="e-mailadress"><br>
+                <input type="submit" name="prenumerera" value="Prenumerera">
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <div class="footertext">
+                <p class="creator"> &copy; Hanna Lindkvist</p>
+                <p class="info">Denna sida är ett projektarbete i kursen Webbutveckling I, Mittuniversitetet.</p>
+            </div>
+        </footer>
+    </div> <!--Wrapper slut-->
+
+    <!--Function for hamburgermenu mobile-->
+    <script>
+        document.querySelector("#icon").addEventListener("click", myFunction);
+
+        function myFunction() {
+            var x = document.querySelector(".mainnav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

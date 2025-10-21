@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DT054G - Projektarbete</title>
+</head>
+
+<body>
+    <!--Wrapper för hela sidan-->
+    <div class="wrapper">
+        <div class="space"></div>
+        <!--Mainnavigation-->
+        <header>
+            <div class="toplogo">
+                <a href="index.html">
+                    <img class="logo290" src="images/logobreathemind290.jpg" alt="logotyp breathemind"></a>
+                <a href="index.html">
+                    <img class="logomobile" src="images/logobreathemindmini58.jpg" alt="logotyp breathemind"></a>
+
+                <a href="javascript:void(0);" class="icon">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <nav class="mainnav">
+
+            <a href="index.html">Startsida</a>
+            <a href="andas.html">Andningsövningar</a>
+            <a href="mindfulness.html">Vad är mindfulness?</a>
+            <a href="about.html">Om oss</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+        <!--Maincontent-->
+        <main>
+            <div class="imglogoroundpage"><img src="images/logorund176.jpg" alt="breathemind logotyp rund"></div>
+            <h1>breathemind</h1>
+            <div class="headerpagemindful">
+                <h2>Vad är mindfulness?</h2>
+            </div>
+            <div class="mainonemindful">
+                <p class="mainone">
+                    Citerat från 1177 Vårdguiden:<br>
+                <blockquote cite="https://www.1177.se/liv--halsa/stresshantering-och-somn/mindfulness/">
+                    Mindfulness eller medveten närvaro är en metod som kommer från meditation.<br> Den används ibland
+                    inom
+                    sjukvården. Metoden går ut på att man fokuserar på sina upplevelser i stunden. Det kan vara tankar,
+                    känslor eller sinnesintryck.<br>
+
+                    Medveten närvaro kan hjälpa dig att få distans till dina tankar och i stället fokusera på nuet, dina
+                    upplevelser och på det du vill göra.<br>
+
+                    Många upplever att de lättare kan hantera till exempel oro, stress och smärta genom att använda
+                    medveten
+                    närvaro i vardagen.
+                </blockquote>
+                </p>
+            </div>
+            <div class="maintwomindful">
+                <p class="maintwo">
+                <blockquote cite="https://www.1177.se/liv--halsa/stresshantering-och-somn/mindfulness/">
+                    Ett av de vanligaste sätten att träna medveten närvaro är att fokusera på sin andning.
+                    Det är praktiskt eftersom det inte kräver några särskilda redskap.<br><br>
+
+                    Fokusera på din andning<br><br>
+                    <b>Öva så här:</b><br>
+
+                    Bestäm hur länge du vill öva och sätt en timer, till exempel på 15 minuter.
+                    Sitt ner, till exempel på en stol. Försök att hitta en hållning med rak rygg.<br>
+                    Dra bak axlarna och sänk
+                    dem. Sätt fötterna i golvet och händerna vilande i knät. Blunda om det känns bra. Om du inte vill
+                    blunda
+                    kan du titta snett neråt.<br>
+                    Rikta uppmärksamheten mot dina andetag. Lägg märke till hur de känns. Följ inandningen hela vägen
+                    in.
+                    Följ sedan utandningen hela vägen ut. Fortsätt så.<br>
+                    Det kommer att dyka upp tankar som stör dig från att tänka på andningen. Lägg bara märke till
+                    tankarna,
+                    acceptera dem och rikta sedan tillbaka uppmärksamheten till andningen.<br>
+                    Du kan göra en liknande övning om du känner dig stressad eller ofokuserad. Ta tre lugna andetag och
+                    rikta hela din uppmärksamhet mot hur det känns att andas in och andas ut.
+                </blockquote>
+                </p>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer>
+            <div class="footertext">
+                <p class="creator"> &copy; Hanna Lindkvist</p>
+                <p class="info">Denna sida är ett projektarbete i kursen Webbutveckling I, Mittuniversitetet.</p>
+            </div>
+        </footer>
+    </div><!--Wrapper slut-->
+
+    <!--Function for hamburgermenu mobile-->
+    <script>
+        document.querySelector("#icon").addEventListener("click", myFunction);
+
+        function myFunction() {
+            var x = document.querySelector(".mainnav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
