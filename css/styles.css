@@ -40,6 +40,10 @@ footer {
     display: none;
 }
 
+.imglogoroundpage {
+    display: none;
+}
+
 h1 {
     font-family: "Gwendolyn", cursive;
     font-weight: 400;
