@@ -44,12 +44,13 @@
             <div class="contact">
                 <p class="main">Fyll i formuläret så återkommer vi</p>
                 <form>
-                    <input type="text" id="emailcontact" name="email" placeholder="e-mailadress"><br><br>
-
+                    <label for="email-contact" class="visuallyhidden">e-mailadress: </label>
+                    <input type="text" id="email-contact" name="email" placeholder="e-mailadress"><br><br>
+                    <label for="comments" class="visuallyhidden">Kommentarer: </label>
                     <textarea id="comments" name="comments">Skriv din text här
             </textarea><br>
-                    <input type="submit" name="skicka" value="Skicka">
-                    <input type="reset" name="rensa" value="Rensa">
+                    <button type="submit" name="skicka">Skicka</button>
+                    <button type="reset" name="rensa">Rensa</button>
                 </form>
             </div>
 
@@ -61,8 +62,10 @@
                 <p>
                     Vill du få nyhetsbrev?
                 </p>
-                <input type="text" id="emailsignup" name="email" placeholder="e-mailadress"><br>
-                <input type="submit" name="prenumerera" value="Prenumerera">
+                <label for="email-signup">
+                    <input type="text" id="email-signup" name="email" placeholder="e-mailadress"
+                        aria-labelledby="prenumerera-button"><br>
+                    <button id="prenumerera-button" type="submit" name="prenumerera">Prenumerera</button></label>
             </div>
         </main>
 
